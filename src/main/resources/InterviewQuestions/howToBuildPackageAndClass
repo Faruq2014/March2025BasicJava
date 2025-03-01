@@ -1,0 +1,15 @@
+
+how to build Package?
+ right click on --->src/main/java--new-->package
+ write package name -->camel casing
+ make sure to write first word small for package name 
+ and no space in between the words
+ 
+ how to build a class?
+ 
+ right click on package name-->new -- class-->
+	 write class name -->camel casing
+	 make sure to write first word capital for class name 
+	 and no space in between the words
+ click on public static void main
+ 

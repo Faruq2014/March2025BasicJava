@@ -1,0 +1,34 @@
+how to build a maven project?
+
+  steps:
+   file-->new--other--maven--maven project-->next
+  -->create simple project-->use default location-->
+  --Group Id--Artifact ID--Finish.
+  Then update propertise file if needed
+  <properties>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+   </properties>
+   
+   Why do I need to update maven Java version?
+     by default maven will build java 1.5 or 1.7
+     your company will tell you what version to use
+      1.5 is too old for maven
+    
+   
+   what is pom.xml file?
+     it is configuration file for the project
+   
+   what is artifactId ?
+   is the project name
+   
+   what is the groupId ?
+   package name
+   
+   HOW do you update your java in the maven
+   <properties>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+   </properties>
+   
+   why do we need maven project?
