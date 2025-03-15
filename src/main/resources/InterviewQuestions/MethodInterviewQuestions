@@ -1,0 +1,63 @@
+# **Java Method Interview Questions**  
+
+Below is a list of **Java method-related interview questions**, ranging from beginner to advanced levels.  
+
+---
+
+## **1. Basic Level Questions**  
+1. **What is a method in Java?**  
+2. **How do you declare and call a method in Java?**  
+3. **What is the difference between a `void` method and a method with a return type?**  
+4. **Can a method return multiple values in Java? If yes, how?**  
+5. **What is method overloading? Provide an example.**  
+6. **What is method overriding? How is it different from overloading?** --escape for now 
+7. **Why do we use the `static` keyword with methods?**  
+8. **What is the difference between an instance method and a static method?**  
+9. **Can we overload the `main()` method in Java? If yes, how?**  
+10. **What is the difference between a function and a method in Java?**  
+
+---
+
+## **2. Intermediate Level Questions**  
+11. **What are the rules for method overloading in Java?**  
+12. **Can method overloading be achieved by changing only the return type? Why or why not?**  
+13. **What is the significance of the `this` keyword inside a method?**  
+14. **What happens if a method does not specify a return type?**  
+15. **Can a method be declared as both `static` and `final`? Why or why not?**  
+16. **What is the difference between `return` and `System.exit(0)` in a method?**  
+17. **How does Java handle method parameters? Are they passed by value or reference?**  
+18. **What is the purpose of `final` methods in Java? Can they be overridden?**  
+19. **What is a `varargs` method, and how does it work?**  
+20. **How does method resolution work in Java when overloading and overriding are both present?**  
+
+--- practice until Intermediate Level Questions- is must
+
+## **3. Advanced Level Questions**  
+21. **What is the concept of covariant return type in method overriding? Provide an example.**  
+22. **How does Java support method references in functional programming (`::` operator)?**  
+23. **What is the default access modifier for a method in Java?**  
+24. **Can a `synchronized` method be overloaded in Java?**  
+25. **Explain how the `super` keyword is used in method overriding.**  
+26. **What is method hiding in Java? How does it differ from method overriding?**  
+27. **How does the Java compiler resolve ambiguous method calls when method overloading involves `varargs`?**  
+28. **Can we override a `private` method? Why or why not?**  
+29. **What happens when an overridden method throws an exception that is not declared in the superclass method?**  
+30. **How do default methods in interfaces work in Java 8? Can they be overridden?**  
+
+---
+
+## **4. Scenario-Based and Coding Questions**  
+31. **Write a Java program demonstrating method overloading and overriding.**  
+32. **Given two methods with the same name but different parameter orders, explain which method Java will call and why.**  
+33. **What will happen if a subclass method tries to throw a checked exception that the superclass method does not declare?**  
+34. **Can we call a subclass method from a superclass reference? If yes, how?**  
+35. **Write a Java program that demonstrates the use of `super` in method overriding.**  
+36. **If a method is marked as `abstract` in a superclass, what must be done in the subclass?**  
+37. **Write a method that accepts a list of numbers and returns the sum using method overloading for different data types (`int`, `double`).**  
+38. **How does the compiler choose the correct overloaded method when multiple matching options exist?**  
+39. **Can you overload a method in a subclass? If yes, how does it differ from overriding?**  
+40. **Write a recursive method in Java to calculate the factorial of a number.**  
+
+---
+
+These questions cover **conceptual, theoretical, and coding** aspects of Java methods, helping in **technical interviews** at all levels. Would you like sample answers for any of these? 🚀

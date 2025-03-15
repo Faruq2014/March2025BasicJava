@@ -1,0 +1,72 @@
+**Java Golden Rules for Methods**  
+
+---
+
+### **1. Method Naming Conventions**  
+- Use **camelCase** for method names (e.g., `calculateTotal()`).  
+- The name should clearly indicate its purpose (e.g., `getUserName()` instead of `gUN()`).  
+- Use **verbs** for action-oriented methods (`fetchData()`, `processOrder()`).  
+- Boolean methods should start with `is`, `has`, or `can` (e.g., `isValid()`, `hasPermission()`).  
+
+---
+
+### **2. Method Signature Best Practices**  
+- Keep method names **descriptive** but concise.  
+- Use **parameters** effectively; avoid too many parameters (consider wrapping in a class if necessary).  
+- Return types should be meaningful (`Optional<T>` instead of `null`).  
+- Use **varargs (`...`)** instead of multiple similar parameters (`public void print(String... messages)`).  
+
+---
+
+### **3. Method Scope & Access Modifiers**  
+- **Use the lowest possible access level**:  
+  - `private` → Internal to class.  
+  - `protected` → Available in subclasses.  
+  - `public` → Accessible everywhere.  
+- Avoid **public methods** unless necessary (expose minimal API).  
+- Use **final** for methods that should not be overridden.  
+
+---
+
+### **4. Method Body Best Practices**  
+- **Single Responsibility Principle (SRP):** A method should do **one thing** and do it well.  
+- Keep methods **short** (preferably 5-20 lines).  
+- Avoid deep nesting (use **early returns** to reduce indentation).  
+- Use **descriptive variable names** inside methods.  
+- Minimize side effects (avoid modifying global state unless necessary).  
+
+---
+
+### **5. Handling Exceptions**  
+- Avoid throwing generic exceptions (e.g., `throw new Exception()` is bad).  
+- Use meaningful exception names (`throw new InvalidUserException()`).  
+- Catch only the necessary exceptions (`catch (IOException e)` instead of `catch (Exception e)`).  
+- **Use try-with-resources** for closing resources automatically (e.g., file handling).  
+
+---
+
+### **6. Method Overloading & Overriding**  
+- **Method Overloading**:  
+  - Keep overloads logically connected (`print(int)`, `print(String)`).  
+  - Avoid unnecessary overloads (use `varargs` instead).  
+
+- **Method Overriding**:  
+  - Always use `@Override` annotation.  
+  - Call `super.methodName()` when necessary.  
+
+---
+
+### **7. Return Values & Immutability**  
+- **Never return null** → Use `Optional<T>` or empty collections instead.  
+- Return **immutable** objects to avoid unintended modifications.  
+- For large collections, consider **returning a copy** (`List.copyOf(originalList)`).  
+
+---
+
+### **8. Documentation & Readability**  
+- Use Javadoc comments (`/** */`) for public methods.  
+- Describe parameters, return values, and exceptions in Javadoc.  
+- Keep method logic readable with proper indentation and spacing.  
+
+
+
