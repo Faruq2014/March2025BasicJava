@@ -1,0 +1,29 @@
+	What are locators in Selenium, and why are they important?
+	
+	How many types of locators are available in Selenium?
+	
+	Explain the difference between id, name, and className locators.
+	
+	How do you locate an element using XPath in Selenium?
+	
+	What is the difference between absolute and relative XPath?
+	
+	How do you locate an element using CSS selectors in Selenium?
+	
+	What is the difference between XPath and CSS selectors?
+	
+	How do you locate an element using the linkText and partialLinkText locators?
+	
+	When should you use the tagName locator in Selenium?
+	
+	How do you handle dynamic elements using locators in Selenium?
+	
+	How do you find elements with multiple attributes in XPath?
+	
+	What is the contains() function in XPath, and how is it used?
+	
+	How do you use the starts-with() and text() functions in XPath?
+	
+	What are the advantages and disadvantages of using different locators in Selenium?
+	
+	How do you use indexes in XPath to locate elements?

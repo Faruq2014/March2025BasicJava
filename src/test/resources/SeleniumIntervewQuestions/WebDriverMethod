@@ -1,0 +1,31 @@
+	Selenium WebDriver Interface Methods Questions:
+	
+	What is the Selenium WebDriver interface, and why is it used?
+	
+	What are the commonly used methods in the WebDriver interface?
+	
+	Explain the difference between get() and navigate().to().
+	
+	How does findElement() differ from findElements()?
+	
+	What is the use of getTitle() in Selenium WebDriver?
+	
+	How do you retrieve the current URL using Selenium?
+	
+	Explain the purpose of getPageSource() in Selenium.
+	
+	What is the difference between close() and quit() methods?
+	
+	How do you manage browser cookies using Selenium WebDriver?
+	
+	What is the purpose of switchTo() in Selenium WebDriver?
+	
+	How do you maximize the browser window in Selenium WebDriver?
+	
+	Explain the use of getWindowHandle() and getWindowHandles().
+	
+	What is the purpose of manage().timeouts() in Selenium?
+	
+	How do you refresh a webpage using Selenium WebDriver?
+	
+	What method is used to check if an element is displayed, enabled, or selected?

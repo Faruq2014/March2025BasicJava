@@ -1,0 +1,58 @@
+Selenium: An Overview
+
+Introduction
+Selenium is an open-source automation testing framework used for testing web applications across various browsers and platforms. It allows testers and developers to automate web interactions, perform functional and regression testing, and integrate with various testing tools.
+
+Key Features of Selenium
+
+Cross-Browser Testing – Supports multiple browsers like Chrome, Firefox, Edge, and Safari.
+
+Multi-Language Support – Compatible with multiple programming languages such as Java, Python, C#, Ruby, and JavaScript.
+
+Platform Independence – Works on Windows, macOS, and Linux.
+
+Integration Capabilities – Can be integrated with CI/CD tools like Jenkins, TestNG, and frameworks like JUnit.
+
+Parallel Execution – Supports grid execution for running tests on multiple environments simultaneously.
+
+Selenium Components
+
+Selenium WebDriver – Provides an interface for interacting with web elements.
+
+Selenium IDE – A record-and-playback tool for test automation.
+
+Selenium Grid – Enables distributed test execution across multiple machines.
+
+Selenium RC (Deprecated) – Older version used before WebDriver.
+
+Commonly Used Web Elements in Selenium
+
+Input Fields (<input>) – Used for text, email, password inputs.
+
+Buttons (<button>) – Clickable elements triggering actions.
+
+Links (<a>) – Hyperlinks for navigation.
+
+Dropdowns (<select>) – List of selectable options.
+
+Checkboxes and Radio Buttons (<input type='checkbox/radio'>) – For multiple and single selections.
+
+Tables (<table>) – Structured data representation.
+
+Frames and iFrames (<iframe>) – Embedded sections within a page.
+
+Basic Selenium Commands
+
+driver.get("URL") – Opens the specified webpage.
+
+driver.find_element(By.ID, "element_id") – Locates an element by its ID.
+
+driver.click() – Clicks on an element.
+
+driver.send_keys("text") – Inputs text into a field.
+
+driver.quit() – Closes the browser and ends the session.
+
+Conclusion
+Selenium is a powerful tool for automating web application testing. Its flexibility, language support, and integration capabilities make it a preferred choice for testers and developers. Mastering Selenium enables efficient and scalable web testing strategies for modern applications.
+

@@ -1,0 +1,40 @@
+	**Selenium Interview Questions**
+	
+	**Basic Questions:**
+	1. What is Selenium, and what are its key components?
+	2. How does Selenium WebDriver work?
+	3. What are the advantages of using Selenium for automation testing?
+	4. What are the limitations of Selenium?
+	5. What programming languages are supported by Selenium?
+	6. How do you launch a browser in Selenium WebDriver?
+	7. What are locators in Selenium? Name a few commonly used locators.
+	8. How do you handle dynamic elements in Selenium?
+	9. What is the difference between `findElement()` and `findElements()`?
+	10. How do you perform mouse and keyboard actions in Selenium?
+	
+	**Intermediate Questions:**
+	- How do you handle dropdowns in Selenium WebDriver?
+	- What is implicit wait, explicit wait, and fluent wait in Selenium?
+	- How do you handle alerts and pop-ups in Selenium?
+	- What is the Page Object Model (POM), and why is it used?
+	- How do you switch between multiple browser windows or tabs in Selenium?
+	- How do you handle frames and iframes in Selenium?
+	- What is Selenium Grid, and how does it work?
+	- How do you capture screenshots in Selenium WebDriver?
+	- What is the difference between `getText()` and `getAttribute()`?
+	- How do you upload a file in Selenium?
+	
+	**Advanced Questions:**
+	- How do you handle CAPTCHA or OTP in Selenium?
+	- What is TestNG, and how is it used with Selenium?
+	- How do you perform parallel test execution in Selenium?
+	- What are headless browsers, and how do you use them in Selenium?
+	- How do you integrate Selenium with CI/CD tools like Jenkins?
+	- What are custom XPath and CSS selectors? Provide examples.
+	- What is the difference between `driver.close()` and `driver.quit()`?
+	- How do you handle broken links using Selenium?
+	- How do you use Selenium with cloud-based testing platforms like SauceLabs or BrowserStack?
+	- What strategies do you use to improve the performance of Selenium tests?
+	
+	These questions cover different levels of expertise and help in preparing for Selenium interviews effectively.
+	
